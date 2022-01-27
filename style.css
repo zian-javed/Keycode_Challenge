@@ -40,11 +40,11 @@ justify-content: center;
 }
 
 .containerTitle{
-border: black solid 1px;
+/* border: black solid 1px; */
 height: vh;
 font-size: 80px;
 font-weight: 800;
-text-align: center;
+
 }
 
 .bottomContainer {

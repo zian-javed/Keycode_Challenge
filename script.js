@@ -6,17 +6,9 @@ const eventKey = document.querySelector("#eventKey");
 const eventCode = document.querySelector("#eventCode");
 
 
-
-// document.addEventListener("mouseover", i => {
-//     console.log(i);
-//     mainContainer.remove();
-
-// });
-
 document.addEventListener("keydown", event => {
     console.log(event);
     mainPreview.remove();
-    mainContainer.style.display = "block";
     eventKey.textContent =  `${event.key}`;
     eventWhich.textContent =  `${event.keyCode}`;
     eventCode.textContent =  `${event.code}`;
